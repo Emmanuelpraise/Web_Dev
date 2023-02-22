@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Emmanuel Praise">
+    <meta name="Description" content="">
+    <meta property="og:image" content="assets/logo.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="436">
+    <meta property="og:image:height" content="228">
+    <meta property="og:description" content="">
+    <link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Student Registration Portal</title>
+</head>
+
+<body>
+
+      <div class="container mt-3">
+        <h3>Student Registration Portal</h3>
+        <div class="card">
+          <div class="card-body">
+            <h1 class="h3 mb-3 fw-normal">Please Register</h1>
+            <p>Already registered before? <a href="assets/html/signin.html">sign in</a></p>
+            <form action="assets/html/dashboard.html">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control firstname-field" id="floatingInput" placeholder="First name" required>
+                <label for="floatingInput">First name</label>
+                <span class="message"></span>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control lastname-field" id="floatingInput" placeholder="Last name" required>
+                <label for="floatingInput">Last name</label>
+                <span class="message"></span>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="date" class="form-control dob-field" id="dateOfBirth" placeholder="Date of birth" min="1970-01-01" max="2010-12-31" required>
+                <label for="floatingInput">Date of birth</label>
+                <span class="message"></span>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="tel" class="form-control phone-field" id="floatingInput" placeholder="Phone number" required>
+                <label for="floatingInput">Phone number</label>
+                <span class="message"></span>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="email" class="form-control email-field" id="floatingInput" placeholder="name@example.com" required>
+                <label for="floatingInput">Email address</label>
+                <span class="message"></span>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control password-field" id="password" placeholder="Password" required>
+                <label for="Password">Password</label>
+                <span class="message"></span>
+              </div>
+              <div class="form-floating mb-3">
+                <input type="password" class="form-control confirmpass-field" id="confirm_password" placeholder="Confirm Password" required>
+                <label for="confirmPassword">Confirm Password</label>
+                <span class="message"></span>
+              </div>
+              <fieldset class="mb-3">
+                <!-- <legend>Gender</legend> -->
+                <div class="form-check">
+                  <input type="radio" name="radios" class="form-check-input" id="Radio1" required>
+                  <label class="form-check-label" for="Radio1">Male</label>
+                  <span class="message"></span>
+                </div>
+                <div class="form-check">
+                  <input type="radio" name="radios" class="form-check-input" id="Radio2" required>
+                  <label class="form-check-label" for="Radio2">Female</label>
+                  <span class="message"></span>
+                </div>
+              <!-- </fieldset> -->
+              <button class="w-100 btn btn-lg btn-primary" type="submit">Register</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </body>
+
+</html>

@@ -1,0 +1,189 @@
+<header>
+      <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <div class="container-sm">
+        <!-- LOGO -->
+        <a class="navbar-brand" href="index.html">Exam booking <sup>ng</sup></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- NAV-LINKS -->
+        <div class="collapse navbar-collapse justify-content-center col-12 col-md-auto mb-2 mb-md-0" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link fw-bold py-1 px-3" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold py-1 px-3" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold py-1 px-3" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold py-1 px-3" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold py-1 px-3" href="#">Contact</a>
+              </li>
+            </ul>
+        </div>
+
+        <div class="col-md-3 text-end">
+          <a><button type="button" class="btn btn-outline-primary me-2">Get started</button></a>
+          <button type="button" class="btn btn-primary sign">Sign-up</button>
+        </div>
+
+        <!-- DROPDOWN -->
+        <div class="dropdown">
+          <button type="button" class="btn btn-outline-primary me-2 dropdown-toggle" data-bs-toggle="dropdown">
+            Get started
+          </button>
+          <ul class="dropdown-menu">
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  data-bs-toggle="tooltip"
+                  title="International English Language Testing System"
+                  >IELTS (General)</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  data-bs-toggle="tooltip"
+                  title="International English Language Testing System"
+                  >IELTS (Academic)</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  data-bs-toggle="tooltip"
+                  title="International English Language Testing System for UK Visas and Immigration"
+                  >IELTS for UKVI (General)</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  data-bs-toggle="tooltip"
+                  title="International English Language Testing System for UK Visas and Immigration"
+                  >IELTS for UKVI (Academic)</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  data-bs-toggle="tooltip"
+                  title="General Test"
+                  >GRE</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  data-bs-toggle="tooltip"
+                  title="Test of English as a Foreign Language"
+                  >TOEFL</a
+                >
+              </li>
+              <li>
+                <a
+                  class="dropdown-item"
+                  href="#"
+                  data-bs-toggle="tooltip"
+                  title="Nursing & Midwifery Council"
+                  >NMC CBT</a
+                >
+              </li>
+            </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+
+
+
+    /* .dropdown-menu {
+  background: #24252a;
+} */
+
+/* .dropdown-item:hover {
+  background: #edf0f1;
+  color: #24252a;
+} */
+
+/* .dropdown-item {
+  color: #edf0f1;
+  background: #24252a;
+} */
+
+      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4">
+        <a href="index.html" class="container_fluid d-flex align-items-center col-md-3 mb-2 mb-md-0 text-light text-decoration-none fw-bold py-1 px-0">
+          Exam booking <sup>ng</sup>
+        </a>
+  
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link fw-bold py-1 px-3">Home</a></li>
+          <li><a href="#" class="nav-link fw-bold py-1 px-3">About</a></li>
+          <li><a href="#" class="nav-link fw-bold py-1 px-3">Services</a></li>
+          <li><a href="#" class="nav-link fw-bold py-1 px-3">Pricing</a></li>
+          <li><a href="#" class="nav-link fw-bold py-1 px-3">Contact</a></li>
+        </ul>
+  
+        <div class="col-md-3 text-end">
+          <a><button type="button" class="btn btn-outline-primary me-2">Get started</button></a>
+          <button type="button" class="btn btn-primary sign">Sign-up</button>
+        </div>
+      </header>
+
+
+
+
+      
+    <header>
+      <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+      <div class="container-sm">
+        <!-- LOGO -->
+        <a class="navbar-brand" href="index.html">Exam booking <sup>ng</sup></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- NAV-LINKS -->
+        <div class="collapse navbar-collapse justify-content-center col-12 col-md-auto mb-2 mb-md-0" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link fw-bold py-1 px-3" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold py-1 px-3" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold py-1 px-3" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold py-1 px-3" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold py-1 px-3" href="#">Contact</a>
+              </li>
+            </ul>
+        </div>
+
+        <div class="col-md-3 text-end">
+          <a><button type="button" class="btn btn-outline-primary me-2">Get started</button></a>
+          <button type="button" class="btn btn-primary sign">Sign-up</button>
+        </div>
+      </div>
+    </nav>
+    </header>
+
